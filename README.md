@@ -1,3 +1,3 @@
 ## larash-web
 
-### link demo website <a href="https://ifanuantoni.github.io/larash-web/">larash.id</a>
+### link demo website <a href="https://ifanuantoni.github.io/larash-id/">larash.id</a>
