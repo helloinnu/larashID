@@ -1,0 +1,58 @@
+/* Query for table */
+@media (max-width: 1000px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+/* Query for smartphone */
+@media (min-width: 670px) {
+  .nav-btn-list {
+    display: none;
+  }
+}
+
+@media (max-width: 670px) {
+  .container {
+    max-width: 500px;
+  }
+  /* Navbar */
+  .nav-center,
+  .nav-right {
+    display: none;
+  }
+  /* Body > Top */
+  .top {
+    flex-wrap: wrap;
+    padding-top: 1em;
+    justify-content: center;
+  }
+  .top-left {
+    width: 100%;
+    order: 2;
+  }
+  .tl-item {
+    margin-top: 1em;
+  }
+  .tl-item h1 {
+    font-size: 2em;
+  }
+  .top.right {
+    width: 100%;
+    order: 1;
+    padding-top: 1em;
+  }
+  /* Footer */
+  footer {
+    height: 4em;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    max-width: 350px;
+  }
+  nav {
+    height: 50px;
+  }
+}
